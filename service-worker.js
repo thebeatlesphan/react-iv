@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thebeatlesphan/react-iv/precache-manifest.3e3199601ceb150aff42b1c2d0adcf48.js"
+  "/react-iv/precache-manifest.66d5c91322e21bc07ee32aca7b1ca151.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/thebeatlesphan/react-iv/index.html", {
+workbox.routing.registerNavigationRoute("/react-iv/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

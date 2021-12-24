@@ -1,13 +1,13 @@
 {
-  "main.css": "/thebeatlesphan/react-iv/static/css/main.1aa1aa6e.chunk.css",
-  "main.js": "/thebeatlesphan/react-iv/static/js/main.41ee9f24.chunk.js",
-  "main.js.map": "/thebeatlesphan/react-iv/static/js/main.41ee9f24.chunk.js.map",
-  "static/js/1.24c69f00.chunk.js": "/thebeatlesphan/react-iv/static/js/1.24c69f00.chunk.js",
-  "static/js/1.24c69f00.chunk.js.map": "/thebeatlesphan/react-iv/static/js/1.24c69f00.chunk.js.map",
-  "runtime~main.js": "/thebeatlesphan/react-iv/static/js/runtime~main.ac45cd02.js",
-  "runtime~main.js.map": "/thebeatlesphan/react-iv/static/js/runtime~main.ac45cd02.js.map",
-  "static/css/main.1aa1aa6e.chunk.css.map": "/thebeatlesphan/react-iv/static/css/main.1aa1aa6e.chunk.css.map",
-  "index.html": "/thebeatlesphan/react-iv/index.html",
-  "precache-manifest.3e3199601ceb150aff42b1c2d0adcf48.js": "/thebeatlesphan/react-iv/precache-manifest.3e3199601ceb150aff42b1c2d0adcf48.js",
-  "service-worker.js": "/thebeatlesphan/react-iv/service-worker.js"
+  "main.css": "/react-iv/static/css/main.1aa1aa6e.chunk.css",
+  "main.js": "/react-iv/static/js/main.41ee9f24.chunk.js",
+  "main.js.map": "/react-iv/static/js/main.41ee9f24.chunk.js.map",
+  "static/js/1.24c69f00.chunk.js": "/react-iv/static/js/1.24c69f00.chunk.js",
+  "static/js/1.24c69f00.chunk.js.map": "/react-iv/static/js/1.24c69f00.chunk.js.map",
+  "runtime~main.js": "/react-iv/static/js/runtime~main.d5b8677c.js",
+  "runtime~main.js.map": "/react-iv/static/js/runtime~main.d5b8677c.js.map",
+  "static/css/main.1aa1aa6e.chunk.css.map": "/react-iv/static/css/main.1aa1aa6e.chunk.css.map",
+  "index.html": "/react-iv/index.html",
+  "precache-manifest.66d5c91322e21bc07ee32aca7b1ca151.js": "/react-iv/precache-manifest.66d5c91322e21bc07ee32aca7b1ca151.js",
+  "service-worker.js": "/react-iv/service-worker.js"
 }
