@@ -1,0 +1,38 @@
+.button {
+    font: inherit;
+    border: none;
+    background: #f2def7;
+    color: black;
+    cursor: pointer;
+    font-size: .9rem;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 4.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 3.7rem;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  button:disabled,
+  button:focus:disabled,
+  button:hover:disabled,
+  button:active:disabled {
+    background: #ccc;
+    border-color: #ccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  

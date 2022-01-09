@@ -1,0 +1,36 @@
+.nav {
+    position: relative;
+    padding: inherit;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    background: white;
+    width: 100%;
+    top: 2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav ul li {
+    list-style: none;
+    height: 5rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    cursor: pointer;
+    width: auto;
+    overflow-y: hidden;
+}
+
+.nav ul:last-child {
+    padding-bottom: 25px;
+}
+
+.nav ul li:hover {
+    color: #ac0e77;
+    font-size: 22px;
+}

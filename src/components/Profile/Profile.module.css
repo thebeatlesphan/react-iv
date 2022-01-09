@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile span {
+  padding: 7px;
+}
+
+.otherButtonsOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+.otherButtonsTwo {
+  display: flex;
+  justify-content: space-evenly;
+}
