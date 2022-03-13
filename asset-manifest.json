@@ -1,14 +1,13 @@
 {
-  "main.css": "/react-iv/static/css/main.4847652b.chunk.css",
-  "main.js": "/react-iv/static/js/main.6b11f27d.chunk.js",
-  "main.js.map": "/react-iv/static/js/main.6b11f27d.chunk.js.map",
-  "static/js/1.01e77e9d.chunk.js": "/react-iv/static/js/1.01e77e9d.chunk.js",
-  "static/js/1.01e77e9d.chunk.js.map": "/react-iv/static/js/1.01e77e9d.chunk.js.map",
+  "main.css": "/react-iv/static/css/main.87ae9f0d.chunk.css",
+  "main.js": "/react-iv/static/js/main.dc1b9719.chunk.js",
+  "main.js.map": "/react-iv/static/js/main.dc1b9719.chunk.js.map",
+  "static/js/1.067c18fc.chunk.js": "/react-iv/static/js/1.067c18fc.chunk.js",
+  "static/js/1.067c18fc.chunk.js.map": "/react-iv/static/js/1.067c18fc.chunk.js.map",
   "runtime~main.js": "/react-iv/static/js/runtime~main.d5b8677c.js",
   "runtime~main.js.map": "/react-iv/static/js/runtime~main.d5b8677c.js.map",
-  "static/media/Front.module.css": "/react-iv/static/media/happy-nurse.4d0030b9.jpg",
-  "static/css/main.4847652b.chunk.css.map": "/react-iv/static/css/main.4847652b.chunk.css.map",
+  "static/css/main.87ae9f0d.chunk.css.map": "/react-iv/static/css/main.87ae9f0d.chunk.css.map",
   "index.html": "/react-iv/index.html",
-  "precache-manifest.af34f50f57b1edb809deb5dd1a7ddd0b.js": "/react-iv/precache-manifest.af34f50f57b1edb809deb5dd1a7ddd0b.js",
+  "precache-manifest.4570271cf93a880493d93c0ab549bbd8.js": "/react-iv/precache-manifest.4570271cf93a880493d93c0ab549bbd8.js",
   "service-worker.js": "/react-iv/service-worker.js"
 }
