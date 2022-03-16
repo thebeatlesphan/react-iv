@@ -1,0 +1,81 @@
+.background {
+    background-color: rgb(238, 248, 238);
+    color: rgb(68, 121, 131)
+}
+
+.container {
+    padding: 0 1rem;
+    padding-top: 4rem;
+}
+
+.container h3 {
+    padding: 2rem 0;
+}
+
+.help span {
+    color: rgb(68, 131, 87);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.app {
+    display: flex;
+}
+
+.app div {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    margin: 0 1rem;
+    background-color: rgb(175, 223, 175);
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    gap: 30%;
+}
+
+.company ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.company ul li:hover {
+    text-decoration: underline;
+}
+
+.social ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.social ul li:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 2rem;
+    padding-bottom: 2rem;;
+}
+
+.copyright ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.copyright ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        margin: 0 5rem;
+    }
+}

@@ -1,0 +1,20 @@
+.faqh2 h2 {
+    color: rgb(12,60,108);
+    padding: 2rem 1rem;
+}
+
+.faq {
+    color: green;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(0,134,116);
+    display: inline-block;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .faqh2 {
+        margin: 0 5rem;
+    }
+}

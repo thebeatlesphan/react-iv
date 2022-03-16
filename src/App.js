@@ -1,38 +1,22 @@
-import React, { useState } from "react";
-import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
-import Front from "./components/Front/Front";
-import Contact from "./components/Contact/Contact";
-import Cart from "./components/Profile/Cart";
-import ProfileSettings from "./components/Profile/ProfileSettings";
+import React from "react";
+import Header from "./UI/Header/Header";
+import Information from "./UI/Information/Information";
+import Titlepage from "./UI/Titlepage/Titlepage";
+import Howto from "./UI/Howto/Howto";
+import Ratings from "./UI/Ratings/Ratings";
+import FaqSection from "./UI/FAQ/FaqSection";
+import Footer from "./UI/Footer/Footer";
 
 function App() {
-  const [cartIsShown, setCartIsShown] = useState(false);
-  const [profileIsShown, setProfileIsShown] = useState(false);
-
-  const showCartHandler = () => {
-    setCartIsShown(true);
-  };
-
-  const closeCartHandler = () => {
-    setCartIsShown(false);
-  };
-
-  const showProfileHandler = () => {
-    setProfileIsShown(true);
-  };
-
-  const closeProfilehandler = () => {
-    setProfileIsShown(false);
-  };
-
   return (
     <>
-      {cartIsShown && <Cart onClose={closeCartHandler} />}
-      {profileIsShown && <ProfileSettings onClose={closeProfilehandler} />}
-      <NavBar />
-      <Front onShowCart={showCartHandler} onShowProfile={showProfileHandler} />
-      <Contact />
+      <Header />
+      <Titlepage />
+      <Information />
+      <Howto />
+      <Ratings />
+      <FaqSection />
+      <Footer />
     </>
   );
 }

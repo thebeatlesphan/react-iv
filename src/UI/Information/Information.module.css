@@ -1,0 +1,46 @@
+.container {
+    padding: 0 1rem;
+    color: rgb(12,60,108);
+}
+
+.container h2 {
+    margin: 2rem 0;
+    text-align: left
+}
+
+.display {
+    margin: 2rem 0;
+}
+
+.picture {
+    height: 8rem;
+    background-color: rgb(240, 185, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture p {
+    color: white;
+    font-size: 4rem;
+}
+
+.pictureWords {
+    color: rgb(12,60,108);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        margin: 0 5rem;
+    }
+
+    .display {
+        margin: 2rem 2rem;
+    }
+
+    .display .picture {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 0 1rem;
+    color: rgb(12,60,108);
+}
+
+.container h2 {
+    padding: 2rem 0;
+}
+
+.total {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stars {
+    display: flex;
+    padding: 0 1rem;
+    max-height: 3rem;
+}
+
+.text {
+    text-align: center;
+    padding: 1rem;
+}
