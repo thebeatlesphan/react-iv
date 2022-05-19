@@ -1,23 +1,14 @@
 import React from "react";
+import Container from "./UI/Container/Container";
 import Header from "./UI/Header/Header";
-import Information from "./UI/Information/Information";
-import Titlepage from "./UI/Titlepage/Titlepage";
-import Howto from "./UI/Howto/Howto";
-import Ratings from "./UI/Ratings/Ratings";
-import FaqSection from "./UI/FAQ/FaqSection";
-import Footer from "./UI/Footer/Footer";
+import Titlepage from "./UI/TitlePage/TitlePage";
 
 function App() {
   return (
-    <>
+    <Container>
       <Header />
       <Titlepage />
-      <Information />
-      <Howto />
-      <Ratings />
-      <FaqSection />
-      <Footer />
-    </>
+    </Container>
   );
 }
 

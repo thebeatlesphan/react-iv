@@ -1,31 +1,24 @@
 import React from "react";
-import classes from "./Titlepage.module.css";
+import classes from "./TitlePage.module.css";
+import backgroundImage from "../../Images/first.png";
 
 const Titlepage = () => {
-
   return (
-    <>
-      <div className={classes.title}>
-        <h1>Premium IV Hydration Service</h1>
-        <p>IVonDemand provides easy access to nation wide services.</p>
-        <div className={classes.button}>
-          <button>get started</button>
-        </div>
+    <div className={classes.title}>
+      <div className={classes.drip}>
+        <h1>Drip Therapy</h1>
+        <p>
+          Your session starts with a conversation with your IV therapist. By
+          understanding what you're looking to accomplish, your therapist can
+          then pull from various product types and incorporate elements of them
+          to address your specific needs.
+        </p>
       </div>
-      <section className={classes.check}>
-        <div>
-          <h2>Check your area for IV services</h2>
-          <form>
-            <div className={classes.zipcode}>
-              <label for="zipCode">Enter home or work zip code</label>
-              <input type="type" name="zipCode" autoComplete="off"></input>
-              <div className={classes.bottom}></div>
-            </div>
-            <input type="submit" value=">" disabled className={classes.submit}></input>
-          </form>
-        </div>
-      </section>
-    </>
+      <div className={classes.button}>
+        <button>Book an appointment</button>
+        <button>Become a member</button>
+      </div>
+    </div>
   );
 };
 
