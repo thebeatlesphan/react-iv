@@ -1,0 +1,96 @@
+.container {
+  background-color: #1e1e1e;
+  width: 1440px;
+  color: white;
+}
+
+.first {
+  display: flex;
+}
+
+.H2 {
+  margin-left: 109px;
+}
+
+.H2 h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 600;
+  width: 363px;
+  margin-top: 163px;
+}
+
+.H2 p {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 53px;
+  width: 400px;
+}
+
+.icons {
+  display: flex;
+  margin-top: 251px;
+  margin-left: 100px;
+  margin-bottom: 210px;
+}
+
+.icon {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px;
+}
+
+.icon img {
+  max-width: 100px;
+}
+
+.icon p {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.second {
+  display: flex;
+}
+
+.girl {
+  margin-left: 102px;
+  margin-right: 104px;
+}
+
+.things h2 {
+  font-size: 40px;
+  line-height: 40px;
+  width: 646px;
+  margin-bottom: 40px;
+}
+
+.smallThing {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.smallThing img {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-right: 34px;
+}
+
+.smallThing h3 {
+  color: #70ddff;
+  font-size: 32px;
+  line-height: 54px;
+  font-weight: 600;
+}
+
+.smallThing p {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+}

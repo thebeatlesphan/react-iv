@@ -4,6 +4,7 @@
   width: 1440px;
   height: 665px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-left: 109px;
   padding-right: 347px;
@@ -11,6 +12,7 @@
 
 .drip {
   color: white;
+  transform: translateY(-2.5rem);
 }
 
 .drip h1 {
@@ -20,7 +22,16 @@
 
 .drip p {
   font-size: 24px;
-  line-height: 25px;
+  line-height: 26px;
+  width: 450px;
+  margin-top: 46px;
+  
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .button button:first-child {
@@ -28,14 +39,21 @@
   height: 54px;
   width: 215px;
   border-radius: 1.6rem;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .button button:last-child {
   background-color: transparent;
   color: #70ddff;
   height: 54px;
-  width: 215px;
+  width: 200px;
   border-radius: 1.6rem;
   border: #70ddff solid 0.1rem;
   margin-top: 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
 }

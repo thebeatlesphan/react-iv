@@ -1,13 +1,15 @@
 import React from "react";
-import Container from "./UI/Container/Container";
-import Header from "./UI/Header/Header";
-import Titlepage from "./UI/TitlePage/TitlePage";
+import Container from "./Landing/Container/Container";
+import Header from "./Landing/Header/Header";
+import SecondTitle from "./Landing/SecondTitle/SecondTitle";
+import Titlepage from "./Landing/TitlePage/TitlePage";
 
 function App() {
   return (
     <Container>
       <Header />
       <Titlepage />
+      <SecondTitle />
     </Container>
   );
 }

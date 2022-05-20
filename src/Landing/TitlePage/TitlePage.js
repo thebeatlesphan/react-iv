@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./TitlePage.module.css";
-import backgroundImage from "../../Images/first.png";
 
 const Titlepage = () => {
   return (
