@@ -7,6 +7,7 @@ import girl from "../../Images/girl.png";
 import science from "../../Images/Science.png";
 import badge from "../../Images/Badge.png";
 import custom from "../../Images/custom.png";
+import welcome from "../../Images/welcome.png";
 
 const SecondTitle = () => {
   return (
@@ -65,6 +66,28 @@ const SecondTitle = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className={classes.third}>
+        <div className={classes.thirdDescription}>
+          <h2>
+            <span>Look your best.</span>
+            <span>Feel your best.</span>
+            <span>Repeat.</span>
+          </h2>
+          <p>
+            We're making it easy to sustain your self-care routine. Become a
+            member and enjoy personalized sessions at lower rates, so you can
+            experience the perks of monthly maintenance.
+          </p>
+          <button>Book an appointment</button>
+        </div>
+        <img src={welcome}></img>
+      </div>
+      <div className={classes.fourth}>
+        <div>
+          <h2>Start feeling like yourself today</h2>
+          <button>Book an appointment</button>
         </div>
       </div>
     </div>

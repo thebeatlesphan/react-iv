@@ -56,6 +56,7 @@
 
 .second {
   display: flex;
+  margin-bottom: 169px;
 }
 
 .girl {
@@ -93,4 +94,66 @@
   font-size: 24px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 109px;
+}
+
+.third h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.third p {
+  width: 429px;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 47px;
+  margin-bottom: 64px;
+}
+
+.third button {
+  color: #70ddff;
+  background: transparent;
+  width: 215px;
+  height: 54px;
+  border: #70ddff solid 0.1rem;
+  border-radius: 1.8rem;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.fourth {
+  background: url("../../Images/start.png");
+  height: 678px;
+  margin-bottom: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth div {
+  text-align: center;
+}
+
+.fourth h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.fourth button {
+  background-color: #70ddff;
+  height: 54px;
+  width: 215px;
+  border: none;
+  border-radius: 1.8rem;
+  margin-top: 54px;
 }
