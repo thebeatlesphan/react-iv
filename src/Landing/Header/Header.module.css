@@ -20,16 +20,31 @@
 .nav li {
   list-style: none;
   padding: 0 25px;
-  height: 54px;;
+  height: 54px;
   letter-spacing: 1px;
 }
 
 .button {
-    background-color: #70DDFF;
-    color: #1E1E1E;
-    width: 93px;
-    height: 54px;
-    border-radius: 1.8rem;
-    align-self: center;
-    transform: translateY(-5px)
+  background-color: #70ddff;
+  color: #1e1e1e;
+  width: 93px;
+  height: 54px;
+  border-radius: 1.8rem;
+  align-self: center;
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    width: 100%;
+    height: 56px;
+    padding: 0;
+  }
+
+  .logo {
+  }
+
+  .header ul {
+    display: none;
+  }
 }
