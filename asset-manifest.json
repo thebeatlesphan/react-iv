@@ -1,13 +1,15 @@
 {
-  "main.css": "/react-iv/static/css/main.696e0737.chunk.css",
-  "main.js": "/react-iv/static/js/main.58f39eab.chunk.js",
-  "main.js.map": "/react-iv/static/js/main.58f39eab.chunk.js.map",
-  "static/js/1.688bf29c.chunk.js": "/react-iv/static/js/1.688bf29c.chunk.js",
-  "static/js/1.688bf29c.chunk.js.map": "/react-iv/static/js/1.688bf29c.chunk.js.map",
-  "runtime~main.js": "/react-iv/static/js/runtime~main.d5b8677c.js",
-  "runtime~main.js.map": "/react-iv/static/js/runtime~main.d5b8677c.js.map",
-  "static/css/main.696e0737.chunk.css.map": "/react-iv/static/css/main.696e0737.chunk.css.map",
-  "index.html": "/react-iv/index.html",
-  "precache-manifest.69506c71c60cc226ea193b834a7d882e.js": "/react-iv/precache-manifest.69506c71c60cc226ea193b834a7d882e.js",
-  "service-worker.js": "/react-iv/service-worker.js"
+  "files": {
+    "main.css": "/react-iv/static/css/main.68edc727.css",
+    "main.js": "/react-iv/static/js/main.a917ce74.js",
+    "static/media/start.png": "/react-iv/static/media/start.16148f3a93e4d5760d06.png",
+    "static/media/first.png": "/react-iv/static/media/first.e1b01119b2f7c902ba19.png",
+    "index.html": "/react-iv/index.html",
+    "main.68edc727.css.map": "/react-iv/static/css/main.68edc727.css.map",
+    "main.a917ce74.js.map": "/react-iv/static/js/main.a917ce74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68edc727.css",
+    "static/js/main.a917ce74.js"
+  ]
 }
