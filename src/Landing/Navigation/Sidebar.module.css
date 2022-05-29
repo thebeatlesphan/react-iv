@@ -1,0 +1,47 @@
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  z-index: 1;
+}
+
+.top {
+  height: 8em;
+  color: #70ddff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top p {
+  font-size: 3em;
+  cursor: pointer;
+  line-height: 0.8em;
+}
+
+.options {
+  width: 80vw;
+  height: 100%;
+  color: white;
+  background-color: #1e1e1e;
+  padding: 1em;
+}
+
+.options > p {
+  margin: 1em 0;
+}
+
+.options > p:hover {
+  color: #70ddff;
+  background-color: #363636;
+}
+
+.options p:first-of-type {
+  margin-top: 0;
+}
+
+.exit {
+  width: 20vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.336);
+}

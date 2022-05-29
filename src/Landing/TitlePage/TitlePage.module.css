@@ -1,0 +1,142 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  transform: translateY(-0.1em);
+}
+
+.container2 {
+  width: clamp(10px, 100vw, 1440px);
+}
+
+/* FIRST SECTION */
+.title {
+  background-image: url("../../Images/first.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.144);
+  height: 65vh;
+}
+
+.title div:first-child {
+  color: #ffffff;
+  padding: 1em;
+}
+
+.title h1 {
+  margin-bottom: 0.2em;
+}
+
+.titleButton {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.titleButton > :first-child {
+  margin-bottom: 1em;
+  width: max-content;
+}
+
+.titleButton > :nth-child(2) {
+  width: max-content;
+}
+
+/* SECOND SECTION */
+.secondTitle {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 1em;
+}
+
+.secondTitle h1 {
+  margin-bottom: 0.2em;
+}
+
+.images {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image img {
+  margin-bottom: 2em;
+}
+
+/* THIRD SECTIOn */
+.thirdSection {
+  color: white;
+  padding: 1em;
+}
+
+.points {
+  padding: 1em 0;
+}
+
+.point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point img {
+  width: 3em;
+  height: 3em;
+}
+
+.point > div {
+  padding: 1em;
+}
+
+.point h3 {
+  color: #70ddff;
+}
+
+/* FOURTH SECTION */
+.fourthSection {
+  color: white;
+  padding: 1em;
+}
+
+.fourthSection h2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.fourthSection span {
+  line-height: 1.2em;
+}
+
+.fourthSection p {
+  margin-bottom: 1em;
+}
+
+/* FIFTH SECTION */
+.fifthSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../Images/start.png");
+  background-position: center;
+  height: 50vh;
+  text-align: center;
+  color: white;
+  margin-bottom: 10em;
+}
+
+.fifthSection h2 {
+  margin-bottom: 1em;
+}
