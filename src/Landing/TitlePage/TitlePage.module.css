@@ -43,6 +43,28 @@
   width: max-content;
 }
 
+@media (min-width: 60em) {
+  .container {
+    padding: 0 5em;
+  }
+
+  .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+    gap: clamp(1em, 292px, 20em);
+  }
+
+  .title > div:first-child {
+    width: 22em;
+  }
+
+  .titleButton {
+    align-items: center;
+  }
+}
+
 /* SECOND SECTION */
 .secondTitle {
   display: flex;
