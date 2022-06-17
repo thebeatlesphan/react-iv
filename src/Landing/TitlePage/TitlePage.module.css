@@ -3,6 +3,11 @@
   justify-content: center;
   background-color: #1e1e1e;
   transform: translateY(-0.1em);
+
+  --fs-h1: clamp(2rem, 2rem + 3vw, 4rem);
+  --fs-h2: clamp(1rem, 1.5rem + 1vw, 2.5rem);
+  --fs-h3: clamp(1rem, 1.2rem + 1vw, 2rem);
+  --fs-p: clamp(1rem, 1rem + 1vw, 1.5rem);
 }
 
 .container2 {
@@ -15,23 +20,28 @@
   background-position: top center;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.144);
-  height: 65vh;
+  padding-top: 1em;
 }
 
 .title div:first-child {
   color: #ffffff;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .title h1 {
   margin-bottom: 0.2em;
+  font-size: var(--fs-h1);
 }
 
+.title p {
+  font-size: var(--fs-p);
+}
 .titleButton {
   display: flex;
   flex-direction: column;
-  padding-left: 1em;
   padding-top: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleButton > :first-child {
@@ -41,27 +51,32 @@
 
 .titleButton > :nth-child(2) {
   width: max-content;
+  margin-bottom: 1.5em;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 65em) {
   .container {
     padding: 0 5em;
   }
 
   .title {
+    height: 85vh;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    padding: 2em;
-    gap: clamp(1em, 292px, 20em);
+    gap: clamp(1em, 3rem, 292px);
+    padding-top: 0;
+    padding-left: clamp(1rem, 5rem, 109px);
   }
 
   .title > div:first-child {
-    width: 22em;
+    width: 32em;
   }
 
   .titleButton {
     align-items: center;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 4em;
   }
 }
 
@@ -74,8 +89,18 @@
   padding: 1em;
 }
 
-.secondTitle h1 {
-  margin-bottom: 0.2em;
+.secondHeading {
+  padding: 2em 0;
+}
+
+.secondHeading > p {
+  font-size: var(--fs-p);
+}
+
+.secondTitle h2 {
+  font-size: var(--fs-h2);
+  line-height: 1em;
+  padding-bottom: 1em;
 }
 
 .images {
@@ -91,10 +116,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .image img {
   margin-bottom: 2em;
+}
+
+.image > h3 {
+  font-size: var(--fs-p);
+}
+
+@media (min-width: 30em) {
+  .images {
+    flex-direction: row;
+  }
 }
 
 /* THIRD SECTIOn */
@@ -120,10 +157,16 @@
 
 .point > div {
   padding: 1em;
+  width: 28em;
 }
 
 .point h3 {
+  font-size: var(--fs-h3);
   color: #70ddff;
+}
+
+.point > div > p {
+  font-size: var(--fs-p);
 }
 
 /* FOURTH SECTION */
@@ -133,6 +176,7 @@
 }
 
 .fourthSection h2 {
+  font-size: var(--fs-h2);
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
@@ -143,7 +187,13 @@
 }
 
 .fourthSection p {
+  font-size: var(--fs-p);
   margin-bottom: 1em;
+}
+
+.fourthButton {
+  display: flex;
+  justify-content: center;
 }
 
 /* FIFTH SECTION */
@@ -157,8 +207,10 @@
   text-align: center;
   color: white;
   margin-bottom: 10em;
+  padding: 0 rem;
 }
 
 .fifthSection h2 {
+  font-size: var(--fs-h2);
   margin-bottom: 1em;
 }

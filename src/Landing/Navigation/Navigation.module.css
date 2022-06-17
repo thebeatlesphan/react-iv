@@ -1,9 +1,12 @@
 nav {
+  position: sticky;
+  top: 0;
   display: flex;
-  padding: 1em 1em;
+  padding: 0.5em 1em;
   background-color: #1e1e1e;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 
 .left {
@@ -12,11 +15,12 @@ nav {
 
 .hamburger:hover {
   background-color: #70deff69;
+  cursor: pointer;
 }
 
 .hamburger div {
-  width: 2em;
-  height: 0.1em;
+  width: 1.5em;
+  height: 0.01em;
   background-color: #ffffff;
   margin: 0.5em 0.3em;
 }
@@ -36,11 +40,12 @@ nav {
 .options p {
   display: none;
   color: white;
+  width: max-content;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 65em) {
   nav {
-    padding: 2em 7em;
+    padding: 2em 9em;
   }
 
   .hamburger {
@@ -50,4 +55,14 @@ nav {
   .options p {
     display: flex;
   }
+
+  .options p:hover {
+    transform: scale(1.1);
+  }
 }
+
+
+/* 
+mobile min: 16pt
+mobile padding: 16px or 24px
+*/

@@ -7,4 +7,10 @@
   font-weight: 700;
   font-size: 1em;
   cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #b9edfd;
+  color: rgb(29, 29, 29);
 }

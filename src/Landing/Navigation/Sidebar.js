@@ -3,11 +3,11 @@ import classes from "./Sidebar.module.css";
 
 const Sidebar = (props) => {
   return (
-    <div className={classes.sidebar}>
+    <div className={`${classes.sidebar} ${props.transition && classes.red}`}>
       <div className={classes.options}>
         <div className={classes.top}>
           <h2>IVonDemand</h2>
-          <p onClick={props.sidebar}>X</p>
+          <p onClick={props.sidebar}>x</p>
         </div>
         <p>Treatments</p>
         <p>Pricing</p>

@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      {side && <Sidebar sidebar={sidebarhandler} />}
+      <Sidebar transition={side} sidebar={sidebarhandler} />
       <Navigation sidebar={sidebarhandler} />
       <TitlePage />
     </>

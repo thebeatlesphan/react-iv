@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Navigation.module.css";
 import logo from "../../Images/logo.png";
-import Button from "../../Components/Button/Button";
+import NavButton from "../../Components/Button/NavButton";
 
 const Navigation = (props) => {
   return (
@@ -20,7 +20,7 @@ const Navigation = (props) => {
         <p>About Us</p>
         <p>Resources</p>
         <p>Contact</p>
-        <Button>Log In</Button>
+        <NavButton>Register</NavButton>
       </div>
     </nav>
   );

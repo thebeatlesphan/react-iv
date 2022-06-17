@@ -33,9 +33,9 @@ const TitlePage = () => {
         {/* SECOND SECTION */}
         <div className={classes.secondTitle}>
           <div className={classes.secondHeading}>
-            <h1>Feel like your best self again</h1>
+            <h2>Feel like your best self again</h2>
             <p>
-              The demands of daily life can be super taxing on yoru body. That's
+              The demands of daily life can be super taxing on your body. That's
               why it pays to take care of it. Drip Studio locations will help
               keep your body running smoothly, so you can run that half marathon
               or that full day of meetings.
@@ -64,21 +64,21 @@ const TitlePage = () => {
           </h2>
           <div className={classes.points}>
             <div className={classes.point}>
-              <img src={equalizer}></img>
+              <img src={equalizer} alt=""></img>
               <div>
                 <h3>Customized Experience</h3>
                 <p>Personalize your sessions with services & products</p>
               </div>
             </div>
             <div className={classes.point}>
-              <img src={cases}></img>
+              <img src={cases} alt=""></img>
               <div>
                 <h3>Highly trained employees</h3>
                 <p>Trained to meet industry-leading standards</p>
               </div>
             </div>
             <div className={classes.point}>
-              <img src={science}></img>
+              <img src={science} alt=""></img>
               <div>
                 <h3>Curated product lines</h3>
                 <p>Complement your sessions & home care</p>
@@ -99,7 +99,9 @@ const TitlePage = () => {
             member and enjoy personalized sessions at lower rates, so you can
             experience the perks of monthly maintenance.
           </p>
-          <Button2>Book an appointment</Button2>
+          <div className={classes.fourthButton}>
+            <Button2>Book an appointment</Button2>
+          </div>
         </div>
 
         {/* FIFTH SECTION */}
