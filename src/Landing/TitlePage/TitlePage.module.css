@@ -5,9 +5,10 @@
   transform: translateY(-0.1em);
 
   --fs-h1: clamp(2rem, 2rem + 3vw, 4rem);
-  --fs-h2: clamp(1rem, 1.5rem + 1vw, 2.5rem);
+  --fs-h2: clamp(1rem, 2rem + 1vw, 2.5rem);
   --fs-h3: clamp(1rem, 1.2rem + 1vw, 2rem);
   --fs-p: clamp(1rem, 1rem + 1vw, 1.5rem);
+  --lh-p: 1.5rem;
 }
 
 .container2 {
@@ -35,6 +36,7 @@
 
 .title p {
   font-size: var(--fs-p);
+  line-height: var(--lh-p);
 }
 .titleButton {
   display: flex;
@@ -54,22 +56,19 @@
   margin-bottom: 1.5em;
 }
 
-@media (min-width: 65em) {
-  .container {
-    padding: 0 5em;
-  }
-
+@media (min-width: 1440px) {
   .title {
-    height: 85vh;
+    height: 665px;
     display: flex;
     align-items: center;
-    gap: clamp(1em, 3rem, 292px);
-    padding-top: 0;
-    padding-left: clamp(1rem, 5rem, 109px);
+    gap: 292px;
+    padding: 0;
   }
 
   .title > div:first-child {
-    width: 32em;
+    width: 476px;
+    margin-left: 109px;
+    padding: 0;
   }
 
   .titleButton {
@@ -95,6 +94,7 @@
 
 .secondHeading > p {
   font-size: var(--fs-p);
+  line-height: var(--lh-p);
 }
 
 .secondTitle h2 {
@@ -134,10 +134,37 @@
   }
 }
 
+@media (min-width: 1440px) {
+  .secondTitle {
+    flex-direction: row;
+    margin-left: 109px;
+    padding: 0;
+    margin-top: 163px;
+  }
+
+  .secondHeading {
+    width: 439px;
+    margin-right: 125px;
+    padding: 0;
+  }
+
+  .images {
+    padding: 0;
+  }
+}
+
 /* THIRD SECTIOn */
 .thirdSection {
   color: white;
   padding: 1em;
+}
+
+.girl {
+  display: none;
+}
+
+.thirdSection > div > h2 {
+  font-size: var(--fs-h2);
 }
 
 .points {
@@ -169,6 +196,38 @@
   font-size: var(--fs-p);
 }
 
+@media (min-width: 1440px) {
+  .girl {
+    display: block;
+    width: 457px;
+    height: 457px;
+    margin-right: 104px;
+    margin-left: 102px;
+  }
+
+  .thirdSection {
+    display: flex;
+    margin-top: 210px;
+  }
+
+  .thirdSection > div > h2 {
+    width: 646px;
+  }
+
+  .point {
+    justify-content: flex-start;
+  }
+
+  .point > div {
+    padding: 0;
+    margin-left: 34px;
+  }
+
+  .point > div > p {
+    width: 707px;
+  }
+}
+
 /* FOURTH SECTION */
 .fourthSection {
   color: white;
@@ -188,12 +247,42 @@
 
 .fourthSection p {
   font-size: var(--fs-p);
+  line-height: var(--lh-p);
   margin-bottom: 1em;
 }
 
 .fourthButton {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .fourthSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 169px;
+    padding-bottom: 0;
+  }
+
+  .fourthSection > div {
+    margin-left: 109px;
+    width: 439px;
+  }
+
+  .fourthSection > div > p {
+    margin-bottom: 64px;
+    margin-top: 47px;
+  }
+
+  .fourthButton {
+    justify-content: flex-start;
+  }
+
+  .welcome {
+    width: 788px;
+    height: 678px;
+  }
 }
 
 /* FIFTH SECTION */
@@ -213,4 +302,10 @@
 .fifthSection h2 {
   font-size: var(--fs-h2);
   margin-bottom: 1em;
+}
+
+@media (min-width: 1440px) {
+  .fifthSection {
+    height: 678px;
+  }
 }

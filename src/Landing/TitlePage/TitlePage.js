@@ -8,6 +8,8 @@ import cup from "../../Images/cafe.png";
 import equalizer from "../../Images/custom.png";
 import cases from "../../Images/Badge.png";
 import science from "../../Images/Science.png";
+import girl from "../../Images/girl.png";
+import welcome from "../../Images/welcome.png";
 
 const TitlePage = () => {
   return (
@@ -59,29 +61,32 @@ const TitlePage = () => {
 
         {/* THIRD SECTION */}
         <div className={classes.thirdSection}>
-          <h2>
-            We do things a little differently and it makes a big difference
-          </h2>
-          <div className={classes.points}>
-            <div className={classes.point}>
-              <img src={equalizer} alt=""></img>
-              <div>
-                <h3>Customized Experience</h3>
-                <p>Personalize your sessions with services & products</p>
+          <img src={girl} className={classes.girl}></img>
+          <div className={classes.thirdRight}>
+            <h2>
+              We do things a little differently and it makes a big difference
+            </h2>
+            <div className={classes.points}>
+              <div className={classes.point}>
+                <img src={equalizer} alt=""></img>
+                <div>
+                  <h3>Customized Experience</h3>
+                  <p>Personalize your sessions with services & products</p>
+                </div>
               </div>
-            </div>
-            <div className={classes.point}>
-              <img src={cases} alt=""></img>
-              <div>
-                <h3>Highly trained employees</h3>
-                <p>Trained to meet industry-leading standards</p>
+              <div className={classes.point}>
+                <img src={cases} alt=""></img>
+                <div>
+                  <h3>Highly trained employees</h3>
+                  <p>Trained to meet industry-leading standards</p>
+                </div>
               </div>
-            </div>
-            <div className={classes.point}>
-              <img src={science} alt=""></img>
-              <div>
-                <h3>Curated product lines</h3>
-                <p>Complement your sessions & home care</p>
+              <div className={classes.point}>
+                <img src={science} alt=""></img>
+                <div>
+                  <h3>Curated product lines</h3>
+                  <p>Complement your sessions & home care</p>
+                </div>
               </div>
             </div>
           </div>
@@ -89,19 +94,22 @@ const TitlePage = () => {
 
         {/* FOURTH SECTION */}
         <div className={classes.fourthSection}>
-          <h2>
-            <span>Look your best.</span>
-            <span>Feel your best.</span>
-            <span>Repeat.</span>
-          </h2>
-          <p>
-            We're making it easy to sustain your self-care routine. Become a
-            member and enjoy personalized sessions at lower rates, so you can
-            experience the perks of monthly maintenance.
-          </p>
-          <div className={classes.fourthButton}>
-            <Button2>Book an appointment</Button2>
+          <div>
+            <h2>
+              <span>Look your best.</span>
+              <span>Feel your best.</span>
+              <span>Repeat.</span>
+            </h2>
+            <p>
+              We're making it easy to sustain your self-care routine. Become a
+              member and enjoy personalized sessions at lower rates, so you can
+              experience the perks of monthly maintenance.
+            </p>
+            <div className={classes.fourthButton}>
+              <Button2>Book an appointment</Button2>
+            </div>
           </div>
+          <img src={welcome} alt="" className={classes.welcome}></img>
         </div>
 
         {/* FIFTH SECTION */}

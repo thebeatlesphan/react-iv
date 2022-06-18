@@ -1,12 +1,16 @@
-nav {
+.container {
   position: sticky;
   top: 0;
+  z-index: 1;
+  background-color: #1e1e1e;
+}
+
+nav {
   display: flex;
   padding: 0.5em 1em;
   background-color: #1e1e1e;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
 }
 
 .left {
@@ -43,13 +47,25 @@ nav {
   width: max-content;
 }
 
-@media (min-width: 65em) {
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
   nav {
-    padding: 2em 9em;
+    width: 1220px;
+    height: 140px;
+    padding: 0.5em 0;
   }
 
   .hamburger {
     display: none;
+  }
+
+  .logo {
+    margin-left: 0;
   }
 
   .options p {
@@ -60,7 +76,6 @@ nav {
     transform: scale(1.1);
   }
 }
-
 
 /* 
 mobile min: 16pt
