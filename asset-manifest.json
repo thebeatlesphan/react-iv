@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/react-iv/static/css/main.baef46f0.css",
-    "main.js": "/react-iv/static/js/main.92758c64.js",
+    "main.css": "/react-iv/static/css/main.9aa24afd.css",
+    "main.js": "/react-iv/static/js/main.2d166071.js",
     "static/media/start.png": "/react-iv/static/media/start.16148f3a93e4d5760d06.png",
+    "static/media/girl.png": "/react-iv/static/media/girl.4bcdc4a6fe45b34ba5ed.png",
     "static/media/first.png": "/react-iv/static/media/first.e1b01119b2f7c902ba19.png",
+    "static/media/welcome.png": "/react-iv/static/media/welcome.8816c681dba870ca664c.png",
     "index.html": "/react-iv/index.html",
-    "main.baef46f0.css.map": "/react-iv/static/css/main.baef46f0.css.map",
-    "main.92758c64.js.map": "/react-iv/static/js/main.92758c64.js.map"
+    "main.9aa24afd.css.map": "/react-iv/static/css/main.9aa24afd.css.map",
+    "main.2d166071.js.map": "/react-iv/static/js/main.2d166071.js.map"
   },
   "entrypoints": [
-    "static/css/main.baef46f0.css",
-    "static/js/main.92758c64.js"
+    "static/css/main.9aa24afd.css",
+    "static/js/main.2d166071.js"
   ]
 }
