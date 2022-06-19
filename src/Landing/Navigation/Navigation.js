@@ -21,7 +21,7 @@ const Navigation = (props) => {
           <p>About Us</p>
           <p>Resources</p>
           <p>Contact</p>
-          <NavButton>Register</NavButton>
+          <NavButton onClick={props.loginEvent}>Register</NavButton>
         </div>
       </nav>
     </div>
