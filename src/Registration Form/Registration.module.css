@@ -1,3 +1,18 @@
+.containerOne {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.advert {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -6,6 +21,7 @@
   height: 100vh;
   width: 100vw;
   background-color: #1e1e1e;
+  border-radius: 5px;
 }
 
 .aboveForm {
@@ -21,7 +37,7 @@
   height: 225px;
   width: 350px;
   padding: 2rem;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   background-color: white;
 }
 
@@ -51,14 +67,49 @@
   background-color: #70ddff;
   border: none;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .belowForm {
   color: white;
   display: flex;
-  font-size: 0.7rem;
-  width: 380px;
+  font-size: 0.9rem;
+  width: 450px;
   justify-content: space-between;
   margin-top: 1rem;
+}
+
+.belowForm > p > span {
+  cursor: pointer;
+  color: #70ddff;
+}
+
+@media (min-width: 768px) {
+  .advert {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .advertContainer > h2 {
+    color: #70ddff;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+    position: relative;
+  }
+
+  .advertContainer > h2 > h3 {
+    font-size: 2rem;
+    position: absolute;
+    top: -50%;
+    left: 15%;
+    color: black;
+    text-shadow: none;
+  }
 }

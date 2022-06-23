@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Navigation from "./Landing/Navigation/Navigation";
-import Sidebar from "./Landing/Navigation/Sidebar";
 import TitlePage from "./Landing/TitlePage/TitlePage";
 import Registration from "./Registration Form/Registration";
 
@@ -17,14 +15,7 @@ function App() {
     showLogin((prevState) => !prevState);
   };
 
-  return (
-    <>
-      {login && <Registration></Registration>}
-      <Sidebar transition={side} sidebar={sidebarhandler} />
-      <Navigation sidebar={sidebarhandler} loginEvent={loginHandler} />
-      <TitlePage />
-    </>
-  );
+  return <>{login ? <Registration></Registration> : <TitlePage showLogin={loginHandler} />}</>;
 }
 
 export default App;

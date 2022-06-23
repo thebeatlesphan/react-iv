@@ -1,0 +1,43 @@
+.formContainer {
+  background-color: white;
+  width: 20em;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.formContainer > h2 {
+  font-size: 2rem;
+  color: #70ddff;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > input {
+  padding: 0.2rem;
+  margin: 0.5rem 0;
+}
+
+.form > button {
+  background-color: #70ddff;
+  color: black;
+  border: none;
+  width: 7rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  align-self: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.sentence {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
