@@ -1,7 +1,7 @@
 .formContainer {
   background-color: white;
   width: 20em;
-  height: 30em;
+  height: 27em;
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -20,7 +20,7 @@
   flex-direction: column;
 }
 
-.form > input {
+.form input {
   padding: 0.2rem;
   margin: 0.5rem 0;
 }
@@ -37,7 +37,41 @@
   cursor: pointer;
 }
 
+.form > button:disabled {
+  background-color: grey;
+  cursor: default;
+}
+
 .sentence {
   font-size: 0.8rem;
   margin-left: 0.5rem;
+}
+
+.member {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.member > span {
+  cursor: pointer;
+}
+
+.form .invalid {
+  border: 1px red solid;
+  background-color: rgb(252, 212, 212);
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.password.passwordMismatch::after {
+  content: "Passwords do not match!";
+  color: red;
+  font-size: 0.7rem;
+  display: block;
+  position: absolute;
+  bottom: -0.65rem;
 }

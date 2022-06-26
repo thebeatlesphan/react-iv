@@ -104,12 +104,19 @@
     position: relative;
   }
 
-  .advertContainer > h2 > h3 {
+  .advertContainer > h2 > span {
     font-size: 2rem;
     position: absolute;
     top: -50%;
     left: 15%;
     color: black;
     text-shadow: none;
+  }
+}
+
+@media (max-width: 30em) {
+  .belowForm {
+    flex-direction: column;
+    text-align: center;
   }
 }

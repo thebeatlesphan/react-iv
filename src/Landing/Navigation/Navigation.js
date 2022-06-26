@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import classes from "./Navigation.module.css";
 import logo from "../../Images/logo.png";
 import NavButton from "../../Components/Button/NavButton";
@@ -30,7 +31,9 @@ const Navigation = (props) => {
             <p>About Us</p>
             <p>Resources</p>
             <p>Contact</p>
-            <NavButton onClick={props.showLogin}>Register</NavButton>
+            <Link to="/registration">
+              <NavButton>Register</NavButton>
+            </Link>
           </div>
         </nav>
       </div>

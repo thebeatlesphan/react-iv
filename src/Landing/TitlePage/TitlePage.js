@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./TitlePage.module.css";
 import Button from "../../Components/Button/Button";
 import Button2 from "../../Components/Button/Button2";
@@ -13,15 +14,10 @@ import welcome from "../../Images/welcome.png";
 import Navigation from "../Navigation/Navigation";
 
 const TitlePage = (props) => {
-  const [treatments, showTreatments] = useState(false);
-
-  const showTreatmentsHandler = () => {
-    showTreatments((prevState) => !prevState);
-  };
 
   return (
     <>
-      <Navigation showLogin={props.showLogin} treatments/>
+      <Navigation showLogin={props.showLogin} treatments />
       <div className={classes.container}>
         <div className={classes.container2}>
           {
@@ -40,7 +36,9 @@ const TitlePage = (props) => {
                 </div>
                 <div className={classes.titleButton}>
                   <Button>Book an appointment</Button>
-                  <Button2>Become a member</Button2>
+                  <Link to="/registration/form">
+                    <Button2>Become a member</Button2>
+                  </Link>
                 </div>
               </div>
 
